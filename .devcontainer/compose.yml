@@ -1,0 +1,11 @@
+version: "3"
+services:
+  tectonic:
+    build: .
+    command: sleep infinity
+    volumes:
+      - ../:/workdir
+      - ~/.gitconfig:/root/.gitconfig
+      - ./.latexmkrc:/root/.latexmkrc
+    environment:
+      SHELL: "/bin/bash"

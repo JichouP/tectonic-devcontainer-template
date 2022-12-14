@@ -1,0 +1,12 @@
+{
+  "name": "tectonic",
+  "dockerComposeFile": "compose.yml",
+  "extensions": [
+    "james-yu.latex-workshop",
+    "streetsidesoftware.code-spell-checker",
+    "phr0s.bib"
+  ],
+  "service": "tectonic",
+  "workspaceFolder": "/workdir",
+  "shutdownAction": "stopCompose"
+}
